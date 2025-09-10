@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  devcontainer:
+    image: mcr.microsoft.com/devcontainers/base:ubuntu
+    volumes:
+      - ..:/workspace:cached
+      - go-cache:/go
+    command: sleep infinity
+    network_mode: service:kafka
+
+volumes:
+  go-cache:

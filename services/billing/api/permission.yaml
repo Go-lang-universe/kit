@@ -1,0 +1,14 @@
+groups:
+
+  - name: "permission.billing.post.group"
+    def:
+      - name: "permission.billing.post.any"
+        namespace: "billing.post"
+        action: "*"
+        internal: true
+      - name: "permission.permission.read"
+        namespace: "billing.post"
+        action: "read"
+      - name: "permission.permission.write"
+        namespace: "billing.post"
+        action: "write"

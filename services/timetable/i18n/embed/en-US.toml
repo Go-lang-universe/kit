@@ -1,0 +1,6 @@
+[permission.timetable.post.group]
+other = "Post"
+[permission.timetable.post.read]
+other = "Read Post"
+[permission.timetable.post.write]
+other = "Write Post"

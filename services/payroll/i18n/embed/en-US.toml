@@ -1,0 +1,6 @@
+[permission.payroll.post.group]
+other = "Post"
+[permission.payroll.post.read]
+other = "Read Post"
+[permission.payroll.post.write]
+other = "Write Post"

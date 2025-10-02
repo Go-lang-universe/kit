@@ -1,0 +1,14 @@
+groups:
+
+  - name: "permission.webhook.post.group"
+    def:
+      - name: "permission.webhook.post.any"
+        namespace: "webhook.post"
+        action: "*"
+        internal: true
+      - name: "permission.permission.read"
+        namespace: "webhook.post"
+        action: "read"
+      - name: "permission.permission.write"
+        namespace: "webhook.post"
+        action: "write"

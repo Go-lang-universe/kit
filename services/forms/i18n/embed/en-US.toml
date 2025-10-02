@@ -1,0 +1,6 @@
+[permission.forms.post.group]
+other = "Post"
+[permission.forms.post.read]
+other = "Read Post"
+[permission.forms.post.write]
+other = "Write Post"

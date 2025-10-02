@@ -1,0 +1,6 @@
+[permission.api-gateway.post.group]
+other = "Post"
+[permission.api-gateway.post.read]
+other = "Read Post"
+[permission.api-gateway.post.write]
+other = "Write Post"

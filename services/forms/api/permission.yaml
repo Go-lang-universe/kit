@@ -1,0 +1,14 @@
+groups:
+
+  - name: "permission.forms.post.group"
+    def:
+      - name: "permission.forms.post.any"
+        namespace: "forms.post"
+        action: "*"
+        internal: true
+      - name: "permission.permission.read"
+        namespace: "forms.post"
+        action: "read"
+      - name: "permission.permission.write"
+        namespace: "forms.post"
+        action: "write"

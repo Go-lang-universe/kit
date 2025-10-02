@@ -1,0 +1,6 @@
+[permission.certificate.post.group]
+other = "Post"
+[permission.certificate.post.read]
+other = "Read Post"
+[permission.certificate.post.write]
+other = "Write Post"

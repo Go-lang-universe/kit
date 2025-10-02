@@ -1,0 +1,14 @@
+groups:
+
+  - name: "permission.exam.post.group"
+    def:
+      - name: "permission.exam.post.any"
+        namespace: "exam.post"
+        action: "*"
+        internal: true
+      - name: "permission.permission.read"
+        namespace: "exam.post"
+        action: "read"
+      - name: "permission.permission.write"
+        namespace: "exam.post"
+        action: "write"

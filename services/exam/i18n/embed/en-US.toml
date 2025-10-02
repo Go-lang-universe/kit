@@ -1,0 +1,6 @@
+[permission.exam.post.group]
+other = "Post"
+[permission.exam.post.read]
+other = "Read Post"
+[permission.exam.post.write]
+other = "Write Post"

@@ -1,0 +1,14 @@
+groups:
+
+  - name: "permission.payroll.post.group"
+    def:
+      - name: "permission.payroll.post.any"
+        namespace: "payroll.post"
+        action: "*"
+        internal: true
+      - name: "permission.permission.read"
+        namespace: "payroll.post"
+        action: "read"
+      - name: "permission.permission.write"
+        namespace: "payroll.post"
+        action: "write"

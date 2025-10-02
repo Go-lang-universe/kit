@@ -1,0 +1,6 @@
+[permission.package.post.group]
+other = "Post"
+[permission.package.post.read]
+other = "Read Post"
+[permission.package.post.write]
+other = "Write Post"

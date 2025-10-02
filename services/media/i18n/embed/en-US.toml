@@ -1,0 +1,6 @@
+[permission.media.post.group]
+other = "Post"
+[permission.media.post.read]
+other = "Read Post"
+[permission.media.post.write]
+other = "Write Post"

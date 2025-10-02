@@ -1,0 +1,6 @@
+[permission.timetable.post.group]
+other = "文章"
+[permission.timetable.post.read]
+other = "读物文章"
+[permission.timetable.post.write]
+other = "增加/修改/删除 文章"

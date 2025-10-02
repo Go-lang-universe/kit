@@ -1,0 +1,6 @@
+[permission.cms.post.group]
+other = "Post"
+[permission.cms.post.read]
+other = "Read Post"
+[permission.cms.post.write]
+other = "Write Post"

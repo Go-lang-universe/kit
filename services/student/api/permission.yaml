@@ -1,0 +1,14 @@
+groups:
+
+  - name: "permission.student.post.group"
+    def:
+      - name: "permission.student.post.any"
+        namespace: "student.post"
+        action: "*"
+        internal: true
+      - name: "permission.permission.read"
+        namespace: "student.post"
+        action: "read"
+      - name: "permission.permission.write"
+        namespace: "student.post"
+        action: "write"

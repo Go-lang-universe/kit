@@ -1,0 +1,14 @@
+groups:
+
+  - name: "permission.payment.post.group"
+    def:
+      - name: "permission.payment.post.any"
+        namespace: "payment.post"
+        action: "*"
+        internal: true
+      - name: "permission.permission.read"
+        namespace: "payment.post"
+        action: "read"
+      - name: "permission.permission.write"
+        namespace: "payment.post"
+        action: "write"

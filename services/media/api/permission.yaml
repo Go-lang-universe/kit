@@ -1,0 +1,14 @@
+groups:
+
+  - name: "permission.media.post.group"
+    def:
+      - name: "permission.media.post.any"
+        namespace: "media.post"
+        action: "*"
+        internal: true
+      - name: "permission.permission.read"
+        namespace: "media.post"
+        action: "read"
+      - name: "permission.permission.write"
+        namespace: "media.post"
+        action: "write"

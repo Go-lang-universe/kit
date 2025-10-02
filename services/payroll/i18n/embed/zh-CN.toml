@@ -1,0 +1,6 @@
+[permission.payroll.post.group]
+other = "文章"
+[permission.payroll.post.read]
+other = "读物文章"
+[permission.payroll.post.write]
+other = "增加/修改/删除 文章"

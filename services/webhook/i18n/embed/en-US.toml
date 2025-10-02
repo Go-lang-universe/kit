@@ -1,0 +1,6 @@
+[permission.webhook.post.group]
+other = "Post"
+[permission.webhook.post.read]
+other = "Read Post"
+[permission.webhook.post.write]
+other = "Write Post"

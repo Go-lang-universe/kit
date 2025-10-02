@@ -1,0 +1,6 @@
+[permission.subscription.post.group]
+other = "文章"
+[permission.subscription.post.read]
+other = "读物文章"
+[permission.subscription.post.write]
+other = "增加/修改/删除 文章"

@@ -1,0 +1,6 @@
+[permission.academics.post.group]
+other = "Post"
+[permission.academics.post.read]
+other = "Read Post"
+[permission.academics.post.write]
+other = "Write Post"

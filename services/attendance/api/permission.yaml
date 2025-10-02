@@ -1,0 +1,14 @@
+groups:
+
+  - name: "permission.attendance.post.group"
+    def:
+      - name: "permission.attendance.post.any"
+        namespace: "attendance.post"
+        action: "*"
+        internal: true
+      - name: "permission.permission.read"
+        namespace: "attendance.post"
+        action: "read"
+      - name: "permission.permission.write"
+        namespace: "attendance.post"
+        action: "write"

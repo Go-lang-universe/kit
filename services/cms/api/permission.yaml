@@ -1,0 +1,14 @@
+groups:
+
+  - name: "permission.cms.post.group"
+    def:
+      - name: "permission.cms.post.any"
+        namespace: "cms.post"
+        action: "*"
+        internal: true
+      - name: "permission.permission.read"
+        namespace: "cms.post"
+        action: "read"
+      - name: "permission.permission.write"
+        namespace: "cms.post"
+        action: "write"

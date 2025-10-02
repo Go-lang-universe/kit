@@ -1,0 +1,6 @@
+[permission.notification.post.group]
+other = "Post"
+[permission.notification.post.read]
+other = "Read Post"
+[permission.notification.post.write]
+other = "Write Post"

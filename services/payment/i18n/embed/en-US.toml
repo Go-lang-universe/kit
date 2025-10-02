@@ -1,0 +1,6 @@
+[permission.payment.post.group]
+other = "Post"
+[permission.payment.post.read]
+other = "Read Post"
+[permission.payment.post.write]
+other = "Write Post"

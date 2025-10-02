@@ -1,0 +1,6 @@
+[permission.billing.post.group]
+other = "Post"
+[permission.billing.post.read]
+other = "Read Post"
+[permission.billing.post.write]
+other = "Write Post"

@@ -1,0 +1,6 @@
+[permission.staff.post.group]
+other = "文章"
+[permission.staff.post.read]
+other = "读物文章"
+[permission.staff.post.write]
+other = "增加/修改/删除 文章"

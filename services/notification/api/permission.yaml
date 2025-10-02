@@ -1,0 +1,14 @@
+groups:
+
+  - name: "permission.notification.post.group"
+    def:
+      - name: "permission.notification.post.any"
+        namespace: "notification.post"
+        action: "*"
+        internal: true
+      - name: "permission.permission.read"
+        namespace: "notification.post"
+        action: "read"
+      - name: "permission.permission.write"
+        namespace: "notification.post"
+        action: "write"

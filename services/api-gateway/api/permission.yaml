@@ -1,0 +1,14 @@
+groups:
+
+  - name: "permission.api-gateway.post.group"
+    def:
+      - name: "permission.api-gateway.post.any"
+        namespace: "api-gateway.post"
+        action: "*"
+        internal: true
+      - name: "permission.permission.read"
+        namespace: "api-gateway.post"
+        action: "read"
+      - name: "permission.permission.write"
+        namespace: "api-gateway.post"
+        action: "write"

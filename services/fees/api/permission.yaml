@@ -1,0 +1,14 @@
+groups:
+
+  - name: "permission.fees.post.group"
+    def:
+      - name: "permission.fees.post.any"
+        namespace: "fees.post"
+        action: "*"
+        internal: true
+      - name: "permission.permission.read"
+        namespace: "fees.post"
+        action: "read"
+      - name: "permission.permission.write"
+        namespace: "fees.post"
+        action: "write"

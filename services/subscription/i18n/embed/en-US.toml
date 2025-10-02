@@ -1,0 +1,6 @@
+[permission.subscription.post.group]
+other = "Post"
+[permission.subscription.post.read]
+other = "Read Post"
+[permission.subscription.post.write]
+other = "Write Post"
